@@ -1,0 +1,12 @@
+// Main.jack
+
+class Main {
+    function void main() {
+        do MakeHappyFace.drawHappyFace();
+
+        // Infinite loop to keep the program running
+        while (true) {
+            // Do nothing
+        }
+    }
+}

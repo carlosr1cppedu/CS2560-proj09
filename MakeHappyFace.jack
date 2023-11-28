@@ -1,0 +1,16 @@
+// MakeHappyFace.jack
+
+class MakeHappyFace {
+    function void drawHappyFace() {
+        // Draw face
+        do Screen.setColor(true);
+        do Screen.drawCircle(100, 100, 50);
+
+        // Draw eyes
+        do Screen.drawCircle(80, 120, 5);
+        do Screen.drawCircle(120, 120, 5);
+
+        // Draw mouth
+        do Screen.drawArc(100, 80, 20, 180, 180);
+    }
+}
